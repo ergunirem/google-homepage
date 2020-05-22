@@ -50,6 +50,18 @@ li {
 
 }
 
+#sign-in {
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    padding: 5px 10px;
+    color: #fff !important;
+}
+
 /* Logo & Search Buttons' Styling */
 
 main {
