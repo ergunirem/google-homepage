@@ -6,37 +6,38 @@
     </head>
     <body>
         <header>
+            <div class="nav">
             <nav class="fixed-nav-bar">
                 <ul>
-                    <li><a href="">Gmail</a></li>
+                    <li><a href="" >Gmail</a></li>
                     <li><a href="">Images</a></li>
-                    <li><a href="">Square_Logo</a></li>
+                    <!-- <li><a href=""></a><img src="https://image.flaticon.com/icons/svg/566/566001.svg" id="nine-squares"></li> -->
                     <li><a href="">Sign in</a></li>
                   </ul>
             </nav>
+            </div>
         </header>
         <main>
-            <div class="center-items">
+            <section id="center-section">
                 <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-                <div class="wrap">
-                    <div class="search">
-                    <label for="search"></label>
-                    <input type="search" class="search_box">
-                    <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16"               fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85                 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-                     rule="evenodd"/>
-                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0                  000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-                        rule="evenodd"/>
-                    </svg>
+                <form action="#" id="form">
+                    <div class="search-wrapper">
+                        <img src="https://www.google.com.tw/images/searchbox/desktop_searchbox_sprites302_hr.webp">
+                        <label for="search"></label>
+                        <input type="search" name="search" class="search-box" id="search">
                     </div>
-                <div>
-                    <div class="buttons">
-                        <button type="submit">Google Search</button>
-                        <button type="submit">I'm Feeling Lucky</button>
+                    <div id="submit-section">
+                        <div class="buttons">
+                            <button type="submit">Google Search</button>
+                            <button type="submit">I'm Feeling Lucky</button>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
+            </section>
             </main>
-            <footer>
-                <div class="wrapper">
+            <footer id="footer">
+                <div class="wrapper" >
                     <div class="upper_footer">
                         <a href="#">Netherlands</a>
                     </div>
