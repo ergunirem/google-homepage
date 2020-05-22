@@ -1,3 +1,9 @@
+body {
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+
+
 /* NavBar's Styling */
 
 .fixed-nav-bar {
@@ -17,14 +23,21 @@ ul {
 }
 
 li {
-    display: inline;
+    display: inline; 
+    
+}
+
+.nav ul li a {
+    text-decoration:none;
+    color: inherit;
+
 }
 
 /* Logo & Search Buttons' Styling */
 
 main {
     right: 50%;
-    bottom: 70%;
+    bottom: 60%;
     transform: translate(50%,50%);
     position: absolute;
 }
@@ -37,22 +50,11 @@ main {
     padding-bottom: 40px;
 }
 
-.svgWrapper{
-    position:absolute;
-    top:21px;
-    left:15px;
-  }
-  
-  .searchBox{
-    text-indent:30px;
-    margin-top:10px;
-    width:200px
-  }
 
 /* Footer's Styling */
 
 .wrapper {
-    position: relative;
+    /* position: relative; */
 }
 
 .upper_footer {
@@ -61,6 +63,7 @@ main {
     position: absolute;
     left:0;
     bottom: 0;
+    width: 100%
 }
 
 .bottom_footer {
@@ -70,4 +73,9 @@ main {
     left:0;
     bottom: 0;
     width: 100%
+}
+
+.upper_footer a, .bottom_footer a {
+    text-decoration: none;
+    color: #A4A6A8;
 }
