@@ -29,6 +29,26 @@ main {
     position: absolute;
 }
 
+.search {
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding-bottom: 40px;
+}
+
+.svgWrapper{
+    position:absolute;
+    top:21px;
+    left:15px;
+  }
+  
+  .searchBox{
+    text-indent:30px;
+    margin-top:10px;
+    width:200px
+  }
+
 /* Footer's Styling */
 
 .wrapper {
